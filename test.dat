@@ -1,0 +1,41 @@
+    1  docker node ls
+    2  curl -fsSL https://get.docker.com -o get-docker.sh
+    3  sh get-docker.sh
+    4  docker images
+    5  docker node ls
+    6  vi /etc/hostname
+    7  init 6
+    8  docker container ps -a
+    9  docker rm -f 750ae2562761
+   10  docker container ps -a
+   11  docker rm -f 15f3a41d84df
+   12  docker container ps -a
+   13  exit
+   14  clear
+   15  docker container ps -a
+   16  docker service ls
+   17  docker container ps -a
+   18  docker service ls
+   19  docker container ps -a
+   20  docker stop 
+   21  docker container ps -a
+   22  docker stop dc4a080e66de
+   23  docker container ps -a
+   24  docker swarm leave
+   25  docker container ps -a
+   26  docker service ls 
+   27  clear
+   28  docker node ls
+   29  docker swaram ls
+   30  docker swarm join-token manager
+   31  docker swarm join-token worker
+   32  ssh 172.31.28.15
+   33  pwd
+   34  ls -lrt
+   35  mkdir testdir
+   36  cd testdir
+   37  touch f1
+   38  touch f2
+   39  touch test.dat
+   40  ls -lrt
+   41  history > test.dat
